@@ -2,8 +2,8 @@
 
 // Website related settings
 const settings = {
-  isSplash: false, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
+  isSplash: true, // Change this to true if you want to use the splash screen.
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
   googleTrackingID: "G-4HFJ5EGYN1",
 };
 
@@ -11,9 +11,9 @@ const settings = {
 const greeting = {
   title: "Hello.",
   title2: "lindseyk",
-  logo_name: "visionary",
-  nickname: "hrishi1999 / picleric",
-  full_name: "Lindsey Howard",
+  logo_name: "lindseyk.dev",
+  nickname: "lindz / codelikeagirl",
+  full_name: "lindsey",
   subTitle: "Full Stack Developer, Based in Raleigh, NC. Always learning.",
   resumeLink:
     "https://drive.google.com/file/d/1l8PceJy8_UEE5rGP6ERILDZOG803AurG/view?usp=sharing",
@@ -28,7 +28,7 @@ const socialMediaLinks = {
   gitlab: " ",
   facebook: " ",
   twitter: "https://twitter.com/dev_lindseyk",
-  instagram: "https://www.instagram.com/",
+  instagram: "https://www.instagram.com/fiercely.lindseyy",
 };
 
 const skills = {
@@ -38,8 +38,8 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and native Android",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Developing database data with PostgreSQL or MongoDB.",
+        "⚡ Creating application backend in Node, & Express.",
       ],
       softwareSkills: [
         {
