@@ -515,54 +515,54 @@ const experience = {
         },
       ],
     },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "Google Summer of Code Mentor",
-          company: "Sugar Labs / GSoC",
-          company_url: "https://sugarlabs.org/",
-          logo_path: "google_logo.png",
-          duration: "Summer of 2017 / 18 / 20",
-          location: " ",
-          description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
-          color: "#4285F4",
-        },
-        {
-          title: "Google Code-In Mentor",
-          company: "Sugar Labs / GSoC",
-          company_url: "https://sugarlabs.org/",
-          logo_path: "google_logo.png",
-          duration: "Winter of 2017 / 18 / 19",
-          location: " ",
-          description:
-            "Day to day resposibilites of this mentorship was to help out children aged 13-17 get started with programming and open-source, review their work and approve them.",
-          color: "#D83B01",
-        },
-        {
-          title: "Board Member at Codeuino",
-          company: " ",
-          company_url: " ",
-          logo_path: "codeuino.jpg",
-          duration: "2018 - 2019",
-          location: " ",
-          description: "Previous Board during early days of Codeuino",
-          color: "#D83B01",
-        },
-        {
-          title: "BluWings Club",
-          company: " ",
-          company_url: " ",
-          logo_path: "b.png",
-          duration: "2018 - On Going",
-          location: " ",
-          description:
-            "Co-Founder and President of the programming club called BluWings. Have organized several workshops which introduced programming and related tools to freshers.",
-          color: "#D83B01",
-        },
-      ],
-    },
+    // {
+    //   title: "Volunteering",
+    //   experiences: [
+    //     {
+    //       title: "Google Summer of Code Mentor",
+    //       company: "Sugar Labs / GSoC",
+    //       company_url: "https://sugarlabs.org/",
+    //       logo_path: "google_logo.png",
+    //       duration: "Summer of 2017 / 18 / 20",
+    //       location: " ",
+    //       description:
+    //         "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+    //       color: "#4285F4",
+    //     },
+    //     {
+    //       title: "Google Code-In Mentor",
+    //       company: "Sugar Labs / GSoC",
+    //       company_url: "https://sugarlabs.org/",
+    //       logo_path: "google_logo.png",
+    //       duration: "Winter of 2017 / 18 / 19",
+    //       location: " ",
+    //       description:
+    //         "Day to day resposibilites of this mentorship was to help out children aged 13-17 get started with programming and open-source, review their work and approve them.",
+    //       color: "#D83B01",
+    //     },
+    //     {
+    //       title: "Board Member at Codeuino",
+    //       company: " ",
+    //       company_url: " ",
+    //       logo_path: "codeuino.jpg",
+    //       duration: "2018 - 2019",
+    //       location: " ",
+    //       description: "Previous Board during early days of Codeuino",
+    //       color: "#D83B01",
+    //     },
+    //     {
+    //       title: "BluWings Club",
+    //       company: " ",
+    //       company_url: " ",
+    //       logo_path: "b.png",
+    //       duration: "2018 - On Going",
+    //       location: " ",
+    //       description:
+    //         "Co-Founder and President of the programming club called BluWings. Have organized several workshops which introduced programming and related tools to freshers.",
+    //       color: "#D83B01",
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -570,7 +570,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    " ",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -578,15 +578,15 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "hrishi2.png",
+    profile_image_path:
+      "https://res.cloudinary.com/codelikeagirl29/image/upload/v1649105177/Temp-550x650_waai2v.png",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
   blogSection: {
     title: "Blogs",
-    subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Medium.",
-    link: "https://medium.com/@hrishipatel99",
+    subtitle: " ",
+    link: "https://medium.com/@thewifey91",
     avatar_image_path: "blogs_image.svg",
   },
 };
@@ -594,27 +594,10 @@ const contactPageData = {
 const projects = {
   data: [
     {
-      id: "50",
-      name: "Journalify",
-      url: "https://play.google.com/store/apps/details?id=com.picle.journalify",
-      description:
-        "You personal journaling companion, goals & daily challenges!",
-      languages: [
-        {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-      ],
-    },
-    {
       id: "51",
-      name: "RecipesAPI",
-      url: "https://rapidapi.com/Hrishi1999/api/recipesapi2",
-      description: "Get recipes for hundreds and thousands of dishes",
+      name: "milkshakesExpress",
+      url: "https://github.com/codelikeagirl29/milkshakesexpress",
+      description: "Get recipes and sign in for milkshake recipes.",
       languages: [
         {
           name: "NodeJS",
@@ -628,279 +611,249 @@ const projects = {
     },
     {
       id: "0",
-      name: "opPortfolio",
-      url: "https://github.com/Hrishi1999/opPortfolio",
-      description: "(This) A clean and full customizable portfolio template.",
+      name: "City Tours",
+      url: "https://github.com/codelikeagirl29/city-tours",
+      description:
+        "A fun site for tourists who can view things to do in the united states most popular cities.",
       languages: [
         {
           name: "ReactJS",
           iconifyClass: "logos-react",
-        },
-      ],
-    },
-    {
-      id: "1",
-      name: "Cab Security System",
-      url: " ",
-      description:
-        "Driver drowsiness detection, profanity detection, violence detection, SMS alerts, cab driver tracking.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "OpenCV",
-          iconifyClass: "logos-opencv",
         },
       ],
     },
     {
       id: "2",
-      name: "Lensinator",
-      url: " ",
-      description:
-        "Published on Play Store back in 2017, crossed 55K downloads. Performed object detection, image captioning, OCR, handwritten OCR, barcode and QR code scanning with product information.",
+      name: "BMW Blog",
+      url: "https://codelikeagirl29.github.io/my-blog/",
+      description: "Blog with information about the luxury car - BMW.",
       languages: [
         {
           name: "JavaScript",
           iconifyClass: "logos-java",
         },
         {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
+          name: "HTML",
+          iconifyClass: "logos-html-5",
         },
       ],
     },
     {
       id: "12",
-      name: "Doorbell.io",
-      url: "https://github.com/Hrishi1999/Doorbell.io",
-      description:
-        "A sound-classifier webapp made with ReactJS + TensorflowJS.",
+      name: "Paws & Claws",
+      url: "https://github.com/CodeLikeAGirl29/paws-claws-express",
+      description: "An app built for dog lovers using Pug, Express & Node.",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "Express",
+          iconifyClass: "logos-express",
         },
         {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "TensorflowJS",
-          iconifyClass: "logos-tensorflow",
+          name: "Nodejs",
+          iconifyClass: "logos-nodejs",
         },
       ],
     },
-    {
-      id: "13",
-      name: "Video Summarization (WIP)",
-      url: "https://github.com/Hrishi1999/Video-Summarization",
-      description:
-        "A video summarization webapp. A Flask-based backend which servers the Tensorflow model and a frontend made in ReactJS.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "Dashboard Activity",
-      url: "https://github.com/Hrishi1999/Dashboard.activity",
-      description:
-        "Google Summer of Code project. A Dashboard activity for Sugar OS which tracks user activity so user can know where they use their most time and where they create most files.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "Project Pickle",
-      url: " ",
-      description:
-        "An app similar to Uber Eats but targeted for Gruhudhyogs (homemade pickles and products). Order management, live order tracking, rating and reviews system, etc.",
-      languages: [
-        {
-          name: "Java",
-          iconifyClass: "logos-java",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "5",
-      name: "Project Health Card",
-      url: "",
-      description:
-        "An aadhard-card like utility card which keeps track of all your health records suchs as: Medicines, Lab Reports, Recent Diseases, Allergies, etc.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-java",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "MongoDB",
-          iconifyClass: "logos-mongodb",
-        },
-      ],
-    },
-    {
-      id: "6",
-      name: "Food Classifier",
-      url: " ",
-      description:
-        "A food classifier app using tflite which classfier over 50 Indian Dishes.",
-      languages: [
-        {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
-        },
-        {
-          name: "Dart",
-          iconifyClass: "logos-dart",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "7",
-      name: "Image Clustering",
-      url: " ",
-      description:
-        "A simple use of K-Means Clustering algorithm to sort images by automatically predicting number of classes. This can be used to clean an image dataset.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "8",
-      name: "Antivirus",
-      url: " ",
-      description:
-        "A project from 2012. Made an antivirus with realtime scanning. Implemented by using comparison of md5 hashes.",
-      languages: [
-        {
-          name: "Visual Basic",
-          iconifyClass: "logos-dotnet",
-        },
-      ],
-    },
-    {
-      id: "9",
-      name: "Sugar on Windows",
-      url: " ",
-      description:
-        "Run and setup Sugar OS to be able to run on Windows using Windows Subsystem for Linux",
-      languages: [
-        {
-          name: "Visual Basic",
-          iconifyClass: "logos-dotnet",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "Object + Face Detection",
-      url: " ",
-      description: "2017 project. Object detection + accurate face detection.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "OpenCV",
-          iconifyClass: "logos-opencv",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Image Captioning with Visual Attention",
-      url: " ",
-      description: "Ongoing. Used MSCOCO 2014/2017 for image captioning.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
+    // {
+    //   id: "13",
+    //   name: "Video Summarization (WIP)",
+    //   url: "https://github.com/Hrishi1999/Video-Summarization",
+    //   description:
+    //     "A video summarization webapp. A Flask-based backend which servers the Tensorflow model and a frontend made in ReactJS.",
+    //   languages: [
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "ReactJS",
+    //       iconifyClass: "logos-react",
+    //     },
+    //     {
+    //       name: "Tensorflow",
+    //       iconifyClass: "logos-tensorflow",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "3",
+    //   name: "Dashboard Activity",
+    //   url: "https://github.com/Hrishi1999/Dashboard.activity",
+    //   description:
+    //     "Google Summer of Code project. A Dashboard activity for Sugar OS which tracks user activity so user can know where they use their most time and where they create most files.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "4",
+    //   name: "Project Pickle",
+    //   url: " ",
+    //   description:
+    //     "An app similar to Uber Eats but targeted for Gruhudhyogs (homemade pickles and products). Order management, live order tracking, rating and reviews system, etc.",
+    //   languages: [
+    //     {
+    //       name: "Java",
+    //       iconifyClass: "logos-java",
+    //     },
+    //     {
+    //       name: "Firebase",
+    //       iconifyClass: "logos-firebase",
+    //     },
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "5",
+    //   name: "Project Health Card",
+    //   url: "",
+    //   description:
+    //     "An aadhard-card like utility card which keeps track of all your health records suchs as: Medicines, Lab Reports, Recent Diseases, Allergies, etc.",
+    //   languages: [
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-java",
+    //     },
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "Firebase",
+    //       iconifyClass: "logos-firebase",
+    //     },
+    //     {
+    //       name: "ReactJS",
+    //       iconifyClass: "logos-react",
+    //     },
+    //     {
+    //       name: "MongoDB",
+    //       iconifyClass: "logos-mongodb",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "6",
+    //   name: "Food Classifier",
+    //   url: " ",
+    //   description:
+    //     "A food classifier app using tflite which classfier over 50 Indian Dishes.",
+    //   languages: [
+    //     {
+    //       name: "Flutter",
+    //       iconifyClass: "logos-flutter",
+    //     },
+    //     {
+    //       name: "Dart",
+    //       iconifyClass: "logos-dart",
+    //     },
+    //     {
+    //       name: "Tensorflow",
+    //       iconifyClass: "logos-tensorflow",
+    //     },
+    //     {
+    //       name: "Jupyter Notebook",
+    //       iconifyClass: "logos-jupyter",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "7",
+    //   name: "Image Clustering",
+    //   url: " ",
+    //   description:
+    //     "A simple use of K-Means Clustering algorithm to sort images by automatically predicting number of classes. This can be used to clean an image dataset.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "Jupyter Notebook",
+    //       iconifyClass: "logos-jupyter",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "8",
+    //   name: "Antivirus",
+    //   url: " ",
+    //   description:
+    //     "A project from 2012. Made an antivirus with realtime scanning. Implemented by using comparison of md5 hashes.",
+    //   languages: [
+    //     {
+    //       name: "Visual Basic",
+    //       iconifyClass: "logos-dotnet",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "9",
+    //   name: "Sugar on Windows",
+    //   url: " ",
+    //   description:
+    //     "Run and setup Sugar OS to be able to run on Windows using Windows Subsystem for Linux",
+    //   languages: [
+    //     {
+    //       name: "Visual Basic",
+    //       iconifyClass: "logos-dotnet",
+    //     },
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "10",
+    //   name: "Object + Face Detection",
+    //   url: " ",
+    //   description: "2017 project. Object detection + accurate face detection.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "Tensorflow",
+    //       iconifyClass: "logos-tensorflow",
+    //     },
+    //     {
+    //       name: "OpenCV",
+    //       iconifyClass: "logos-opencv",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "11",
+    //   name: "Image Captioning with Visual Attention",
+    //   url: " ",
+    //   description: "Ongoing. Used MSCOCO 2014/2017 for image captioning.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "Tensorflow",
+    //       iconifyClass: "logos-tensorflow",
+    //     },
+    //     {
+    //       name: "Jupyter Notebook",
+    //       iconifyClass: "logos-jupyter",
+    //     },
+    //   ],
+    // },
   ],
 };
 
