@@ -97,7 +97,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Education and Certifications
+                Education & Certs
               </NavLink>
             </li>
             <li>
@@ -108,7 +108,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Experience
+                Exp
               </NavLink>
             </li>
             <li>
@@ -130,19 +130,8 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Contact and Resume
+                Contact & Resume
               </NavLink>
-            </li>
-            <li>
-              <a
-                className="cr"
-                href="https://play.google.com/store/apps/details?id=com.picle.journalify"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
-                Journalify
-              </a>
             </li>
             <button {...styles} onClick={changeTheme}>
               {icon}
